@@ -1,0 +1,10 @@
+ .all-cart-style{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+ }
+ .all-cart-style img{
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+ }

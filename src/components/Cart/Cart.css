@@ -1,0 +1,16 @@
+.cart-style{
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+.cart-details{
+  text-align: justify;
+}
+.add-to-list-btn{
+  background-color: rgb(60, 88, 243);
+  border: none;
+  padding: 10px 120px;
+  border-radius: 10px;
+  color: whitesmoke;
+}
