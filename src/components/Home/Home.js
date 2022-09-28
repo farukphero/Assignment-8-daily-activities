@@ -7,8 +7,9 @@ import PersonalInfo from '../PersonalInfo/PersonalInfo';
 import './Home.css'
 const Home = () => {
   return (
-    <div className='home-container'>
-      <div>
+    <div>
+      <div className='home-container'>
+        <div>
         <h1>Faruk's daily activity</h1>
        <Carts></Carts>
       </div>
@@ -17,6 +18,7 @@ const Home = () => {
         <PersonalInfo></PersonalInfo>
         <Break></Break>
         <Exercise></Exercise>
+      </div>
       </div>
         <Questions></Questions>
     </div>
