@@ -1,0 +1,12 @@
+.break-btn{
+  background-color: rgb(225, 231, 236);
+  padding: 20px;
+  border-radius: 10px;
+}
+.break-btn button{
+  margin:0 9px;
+  padding:10px 4px;
+  border: none;
+  border-radius: 75%;
+  background-color: whitesmoke;
+}

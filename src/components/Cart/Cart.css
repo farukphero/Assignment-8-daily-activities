@@ -1,5 +1,5 @@
 .cart-style{
-  margin: 20px;
+  margin: 10px;
   padding: 10px;
   border: 1px solid gainsboro;
   border-radius: 10px;
@@ -10,7 +10,9 @@
 .add-to-list-btn{
   background-color: rgb(60, 88, 243);
   border: none;
-  padding: 10px 120px;
+  padding: 15px;
+  width: 100%;
   border-radius: 10px;
   color: whitesmoke;
+  font-size: 20px;
 }

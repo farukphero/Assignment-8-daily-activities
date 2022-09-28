@@ -1,5 +1,31 @@
-.personal-info img{
+.personal-info{
   display: flex;
-    width: 20px;
-    height: 20px;
+  position: relative;
+   
 }
+
+.personal-info img{
+  position: absolute;
+  top: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  
+}
+.detail-info{
+  margin-left: 60px;
+  line-height: 7px;
+  text-align: justify;
+}
+.more-info{
+   
+  background-color: rgb(225, 231, 236);
+  display: flex;
+  justify-content: space-between;
+  padding:0 15px;
+  margin-right: 10px;
+  margin-top: 30px;
+  line-height: 7px;
+  border-radius: 10px;
+}
+ 

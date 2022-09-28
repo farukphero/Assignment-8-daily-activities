@@ -1,7 +1,14 @@
 import React from 'react';
 import './Cart.css'
 const Cart = (props) => {
-  const {id, name, time, picture} = props.cart
+  const { id, name, time, picture } = props.cart
+  // const backgroundColor = (id) => {
+  //   console.log('ladjm', id)
+  //   const style = {
+  //     backgroundColor: 'red',
+  //     color:'red'
+  //   }
+  // }
   return (
     <div className='cart-style'>
       <img src={picture} alt="" />
