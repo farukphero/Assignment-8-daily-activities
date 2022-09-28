@@ -1,30 +1,7 @@
-[
-  {
-    "id": "633466f06e27a2fd3e825571",
-    "picture": "https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHJlYWRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-    "time":"2 hours",
-    "eyeColor": "brown",
-    "name": "Read Time",
-    "gender": "female",
-    "company": "PROXSOFT",
-    "email": "oliveclemons@proxsoft.com",
-    "about": "Laborum ullamco mollit nulla enim reprehenderit. Aliquip commodo tempor occaecat laboris ullamco velit adipisicing ut irure cupidatat ut irure irure aute. Duis ex qui cillum consectetur. Exercitation ea ipsum ex non sit exercitation amet enim aute in magna. Consequat elit proident laboris nulla amet elit adipisicing irure. Cillum anim dolore cupidatat culpa cillum eiusmod amet fugiat.\r\n"
-  },
-  {
-    "id": "633466f022351b6d570746cc",
-    "picture": "https://images.unsplash.com/photo-1551280857-2b9bbe52acf4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZvb3RiYWxsJTIwcGxheWVyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-    "time": "1 hours",
-    "eyeColor": "brown",
-    "name": "Playing Time",
-    "gender": "male",
-    "company": "HOUSEDOWN",
-    "email": "comptonallison@housedown.com",
-    "about": "Ipsum Lorem minim in exercitation esse do qui aute veniam exercitation occaecat ea. Velit magna qui nisi excepteur aliquip laboris sit. Aliqua magna in pariatur dolore labore ut exercitation culpa voluptate irure excepteur reprehenderit cillum. Ad nostrud nulla consectetur aute ipsum adipisicing voluptate ipsum velit. Voluptate anim non laboris do qui cillum voluptate sint cillum veniam mollit eu eu. Anim dolore pariatur ut pariatur do ad.\r\n"
-  },
-  {
-    "id": "633466f0c049eb575f502d33",
+[{
+    "id": "1531",
     "picture": "https://images.unsplash.com/photo-1594737625785-a6cbdabd333c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxzZWFyY2h8MXx8ZXhlcmNpc2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-    "time": "1.5 hours",
+    "time": 1.5,
     "eyeColor": "blue",
     "name": "Zim",
     "gender": "female",
@@ -33,9 +10,32 @@
     "about": "Aliqua consectetur sint aliqua aute nostrud excepteur minim. Ut mollit cupidatat elit cupidatat est dolore et elit anim adipisicing labore sit. Anim ea consequat ad mollit anim nulla dolor mollit eiusmod eu cupidatat officia do voluptate. Duis aliquip in duis consectetur. Duis anim Lorem dolore id sunt deserunt mollit Lorem velit sint ullamco labore incididunt ipsum.\r\n"
   },
   {
-    "id": "633466f07b98e5be33a5538f",
+    "id": "1532",
+    "picture": "https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHJlYWRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+    "time":2,
+    "eyeColor": "brown",
+    "name": "Read Time",
+    "gender": "female",
+    "company": "PROXSOFT",
+    "email": "oliveclemons@proxsoft.com",
+    "about": "Laborum ullamco mollit nulla enim reprehenderit. Aliquip commodo tempor occaecat laboris ullamco velit adipisicing ut irure cupidatat ut irure irure aute. Duis ex qui cillum consectetur. Exercitation ea ipsum ex non sit exercitation amet enim aute in magna. Consequat elit proident laboris nulla amet elit adipisicing irure. Cillum anim dolore cupidatat culpa cillum eiusmod amet fugiat.\r\n"
+  },
+  {
+    "id": "1533",
+    "picture": "https://images.unsplash.com/photo-1551280857-2b9bbe52acf4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZvb3RiYWxsJTIwcGxheWVyc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "time": 1,
+    "eyeColor": "brown",
+    "name": "Playing Time",
+    "gender": "male",
+    "company": "HOUSEDOWN",
+    "email": "comptonallison@housedown.com",
+    "about": "Ipsum Lorem minim in exercitation esse do qui aute veniam exercitation occaecat ea. Velit magna qui nisi excepteur aliquip laboris sit. Aliqua magna in pariatur dolore labore ut exercitation culpa voluptate irure excepteur reprehenderit cillum. Ad nostrud nulla consectetur aute ipsum adipisicing voluptate ipsum velit. Voluptate anim non laboris do qui cillum voluptate sint cillum veniam mollit eu eu. Anim dolore pariatur ut pariatur do ad.\r\n"
+  },
+  
+  {
+    "id": "1534",
     "picture": "https://images.unsplash.com/photo-1585511543349-172d6c653ce7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGN5Y2xpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-    "time": "1 hours",
+    "time": 1,
     "eyeColor": "green",
     "name": "Cycling",
     "gender": "female",
@@ -44,9 +44,9 @@
     "about": "Sit laboris ut consectetur Lorem. Est tempor eiusmod excepteur est sit ex minim. In eiusmod duis sit do qui ad sunt pariatur commodo ea. Adipisicing et nostrud enim sint.\r\n"
   },
   {
-    "id": "633466f0c18f26ddf1dba9af",
+    "id": "1535",
     "picture": "https://images.unsplash.com/photo-1624448445915-97154f5e688c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZhbWlseSUyMGF0JTIwaG9tZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-    "time": "3 hours",
+    "time": 3,
     "eyeColor": "brown",
     "name": "Family Fun Time",
     "gender": "male",
@@ -55,9 +55,9 @@
     "about": "Dolore adipisicing esse exercitation elit commodo ullamco tempor proident dolore proident veniam cupidatat commodo ad. Nulla voluptate ea enim proident deserunt elit minim qui cupidatat eiusmod amet laborum. Culpa esse mollit nostrud consectetur. Dolor laboris cillum mollit incididunt aute velit culpa magna dolore qui officia irure ipsum magna. Laboris sint occaecat Lorem ad est minim dolor aute aliqua aliquip proident dolore qui.\r\n"
   },
   {
-    "id": "633466f0c18f26ddf1dba9af",
+    "id": "1536",
     "picture": "https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGZyaWVuZHNoaXAlMjBib3lzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    "time": "3.5 hours",
+    "time":4,
     "eyeColor": "brown",
     "name": "Friends",
     "gender": "male",

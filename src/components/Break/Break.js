@@ -2,7 +2,7 @@ import React from 'react';
 import './Break.css'
 const Break = () => {
   return (
-    <div>
+    <div className='break-container'>
       <h2 style={{textAlign: 'justify'}}>Add To Break</h2>
       <div className='break-btn'>
       <button>10m</button>

@@ -12,10 +12,14 @@
 }
 @media screen and (max-width:575px) {
   .break-btn button {
-      margin: 0 17px;
+      margin: 0 12px;
       padding: 14px 10px;
       border: none;
       border-radius: 75%;
       background-color: whitesmoke;
+    }
+    .break-container{
+      width: 90%;
+      margin: 0 auto;
     }
 }
