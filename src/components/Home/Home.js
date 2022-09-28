@@ -10,7 +10,7 @@ const Home = () => {
     <div>
       <div className='home-container'>
         <div>
-        <h1>Faruk's daily activity</h1>
+        <h3 style={{textAlign:'justify', marginLeft:'65px'}}>Select today’s activities</h3>
        <Carts></Carts>
       </div>
       <div className='personal-details'>

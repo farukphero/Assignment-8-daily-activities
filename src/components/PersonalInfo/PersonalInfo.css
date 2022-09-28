@@ -1,7 +1,11 @@
+.personal-container{
+  width: 300px;
+  margin: 0 auto;
+    
+}
 .personal-info{
   display: flex;
   position: relative;
-   
 }
 
 .personal-info img{
@@ -18,7 +22,6 @@
   text-align: justify;
 }
 .more-info{
-   
   background-color: rgb(225, 231, 236);
   display: flex;
   justify-content: space-between;
@@ -29,3 +32,12 @@
   border-radius: 10px;
 }
  
+@media screen and (max-width:575px) {
+  .personal-container {
+      width: 100%;
+    }
+  .more-info {
+   padding: 0 30px;
+        
+  }
+}

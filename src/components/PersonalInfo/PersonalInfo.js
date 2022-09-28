@@ -3,8 +3,7 @@ import './PersonalInfo.css'
 import image from '../../images/img-1.png';
 const PersonalInfo = () => {
   return (
-    <div>
-    
+    <div className='personal-container'>
       <div  className='personal-info'>
         <div className='image'>
         <img src= {image} alt="" />
