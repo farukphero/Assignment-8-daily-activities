@@ -16,11 +16,11 @@ const addToDb = (id) => {
     
      activityCart[id] =  1
   }
- localStorage.setItem('shopping-cart', JSON.stringify(activityCart))
+ localStorage.setItem('activity-cart', JSON.stringify(activityCart))
 
 }
 
 
-
-
-export {addToDb}
+export {
+  addToDb
+}

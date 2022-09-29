@@ -18,10 +18,8 @@ const Home = () => {
   }, [])
   const handleClick = cart => {
     const newCount =  [...count, cart];
-    // console.log(newCount)
     setCount(newCount)
     addToDb(cart.id)
-    // console.log('sdkjcn',cart)
   }
   return (
     <div>
@@ -43,7 +41,8 @@ const Home = () => {
       <div className='personal-details'>
         <h1>Personal details</h1>
         <PersonalInfo></PersonalInfo>
-        <Break></Break>
+          <Break></Break>
+          
         <Exercise count={count}></Exercise>
       </div>
       </div>
