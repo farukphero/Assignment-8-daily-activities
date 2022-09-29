@@ -1,22 +1,24 @@
 import React, { useEffect, useState } from 'react';
-import { addToBreak, getBreakCart} from '../../utilities/breakdb';
+import { addToBreak, getStoredCart} from '../../utilities/breakdb';
 import BreakCount from '../BreakCount/BreakCount';
 // import { addToBreak } from '../../utilities/breakdb';
  
 import './Break.css'
 const Break = () => {
-  const [breakCount, setBreakCount] = useState([])
+  const [breakCount, setBreakCount] = useState('')
   const handleBreak = (event) => {
-    console.log(event)
-    // localStorage.setItem('break',event)
-    setBreakCount(event.target.innerText)
-    addToBreak(event)
+    localStorage.setItem('break', event.target.innerText)
+    const addedBreak = localStorage.getItem('break')
+    if (addedBreak) {
+     setBreakCount(addedBreak)
+    }
   }
-  // useEffect(() => {
-  //   const storedCart=getBreakCart()
-  //   const saveCart = []
-  //    saveCart.push(storedCart)
-  //  },[])
+  useEffect(() => {
+    const addedBreak = localStorage.getItem('break')
+    if (addedBreak) {
+      setBreakCount(addedBreak)
+    }
+  },[breakCount])
   return (
     <div className='break-container'>
       <h2 style={{textAlign: 'justify'}}>Add To Break</h2>
