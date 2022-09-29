@@ -1,0 +1,8 @@
+.break-count{
+   display: flex;
+   justify-content: space-between;
+   background-color: rgb(225, 231, 236);
+   padding: 0 10px;
+   border-radius: 10px;
+   margin-top: 25px;
+}

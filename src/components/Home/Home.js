@@ -41,7 +41,7 @@ const Home = () => {
       <div className='personal-details'>
         <h1>Personal details</h1>
         <PersonalInfo></PersonalInfo>
-          <Break></Break>
+        <Break></Break>
           
         <Exercise count={count}></Exercise>
       </div>

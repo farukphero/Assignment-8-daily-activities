@@ -1,13 +1,16 @@
 const addToBreak = (event) => {
+  let array ={}
   const quantity = localStorage.getItem('break')
   if (quantity) {
-    localStorage.setItem('break', event)
+     array = JSON.parse(quantity)
   }
   else {
-    localStorage.setItem('break', event)
+    localStorage.setItem('break', JSON.stringify(quantity))
    }
-  
 }
- export {addToBreak}
+ 
+export {
+  addToBreak
+}
  
     

@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faLocationDot} from '@fortawesome/free-solid-svg-icons'
 import './PersonalInfo.css'
 import image from '../../images/img-1.png';
 const PersonalInfo = () => {
@@ -11,7 +13,7 @@ const PersonalInfo = () => {
       <div className='detail-info'>
         <h2 > Md: Omar Faruk</h2>
         <p>A potential web developer</p>
-        <p>Rajshahi, Bangladesh</p>
+        <p><FontAwesomeIcon icon={faLocationDot}/> Rajshahi, Bangladesh</p>
       </div>
       </div>
       <div className='more-info'>
