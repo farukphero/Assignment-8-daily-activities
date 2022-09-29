@@ -20,7 +20,7 @@
   border-radius: 10px;
 }
 
-@media screen and (max-width:575px) {
+@media screen and (max-width:576px) {
   .all-cart-style {
     width: 90%;
     margin: 0 auto;
@@ -32,4 +32,12 @@
       display: grid;
       grid-template-columns: 1fr;
   }
+}
+
+@media screen and (min-width:576px) and (max-width:991px) {
+  .all-cart-style {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+  
+    }
 }
