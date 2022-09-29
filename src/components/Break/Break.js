@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { addToBreak, getStoredCart} from '../../utilities/breakdb';
 import BreakCount from '../BreakCount/BreakCount';
-// import { addToBreak } from '../../utilities/breakdb';
- 
 import './Break.css'
 const Break = () => {
   const [breakCount, setBreakCount] = useState('')
@@ -25,6 +22,7 @@ const Break = () => {
       <div className='break-btn'>
       <button onClick={handleBreak}>10m</button>
       <button onClick={handleBreak}>20m</button>
+      <button onClick={handleBreak}>30m</button>
       <button onClick={handleBreak}>40m</button>
       <button onClick={handleBreak}>50m</button>
       </div>

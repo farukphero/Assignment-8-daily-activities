@@ -7,7 +7,7 @@ const Cart = (props) => {
       <img src={picture} alt="" />
       <div className='cart-details'>
       <h1>{name}</h1>
-      <p>{about.slice(0,120)}...</p>
+      <p>{about.slice(0,125)}...</p>
       <p><b>Time required:</b> {time} hours</p>
       <button onClick={()=>props.handleClick(props.cart)} className='add-to-list-btn'>Add to list</button>
       </div>

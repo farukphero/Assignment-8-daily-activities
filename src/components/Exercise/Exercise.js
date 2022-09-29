@@ -9,9 +9,9 @@ const Exercise = (props) => {
   }
   return (
     <div className='exercise-container'>
-      <h2 style={{textAlign: 'justify'}}>Exercise Details</h2>
+      <h2 style={{textAlign: 'justify'}}>Activities Time:</h2>
       <div className='exercise-time'>
-        <h3>Exercise time</h3>
+        <h3>Activity time:</h3>
         <p>{total} hours </p>
       </div>
       <App></App>
