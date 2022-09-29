@@ -4,14 +4,14 @@ import './Break.css'
 const Break = () => {
   const [breakCount, setBreakCount] = useState('')
   const handleBreak = (event) => {
-    localStorage.setItem('break', event.target.innerText)
-    const addedBreak = localStorage.getItem('break')
+    localStorage.setItem('break-count', event.target.innerText)
+    const addedBreak = localStorage.getItem('break-count')
     if (addedBreak) {
      setBreakCount(addedBreak)
     }
   }
   useEffect(() => {
-    const addedBreak = localStorage.getItem('break')
+    const addedBreak = localStorage.getItem('break-count')
     if (addedBreak) {
       setBreakCount(addedBreak)
     }

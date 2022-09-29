@@ -4,7 +4,7 @@ const Questions = () => {
   return (
     <div>
       <hr style={{ marginTop: '20px' }} />
-      <h1 style={{ marginTop: '60px', color:'rgb(60, 88, 243)'}}>Welcome To Questions Parts</h1><hr style={{width:'50%'}} />
+      <h1 style={{ marginTop: '60px', color:'rgb(60, 88, 243)'}}>Know about ReactJs</h1><hr style={{width:'50%'}} />
       <div  className='question-container'>
         <div>
         <h1>How does react work?</h1>

@@ -22,7 +22,7 @@ const PersonalInfo = () => {
           <p>Study</p>
          </div>
         <div>
-          <h4>Web-De... </h4>
+          <h4>Web-Develop </h4>
           <p>Dream</p>
          </div>
         
