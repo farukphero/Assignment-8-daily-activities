@@ -1,5 +1,5 @@
 import React from 'react';
-import App from '../Toast/Toast';
+import SideToast from '../Toast/Toast';
 import './Exercise.css'
 const Exercise = (props) => {
   const { count } = props
@@ -14,7 +14,7 @@ const Exercise = (props) => {
         <h3>Activity time:</h3>
         <p>{total} hours </p>
       </div>
-      <App></App>
+       <SideToast></SideToast>
     </div>
   );
 };

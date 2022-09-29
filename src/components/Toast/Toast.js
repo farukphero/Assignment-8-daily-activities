@@ -2,7 +2,7 @@ import React from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
   
-  function App(){
+  function SideToast(){
     const toastNotify = () => toast("Congratulation, Successfully Completed!");
     return (
       <div>
@@ -11,4 +11,4 @@ import 'react-toastify/dist/ReactToastify.css';
       </div>
     );
 }
-export default App;
+export default SideToast;
